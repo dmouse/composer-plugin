@@ -1,7 +1,7 @@
 {
-  "name": "hechoendrupal/composer-composers",
+  "name": "hechoendrupal/composer-drupal",
   "description": "merge composers",
-  "keywords": ["amazon", "aws", "s3", "composer", "composer-plugin", "plugin"],
+  "keywords": [ "drupal"],
   "license": "GPL-2.0+",
   "type": "composer-plugin",
   "authors": [
