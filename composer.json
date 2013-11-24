@@ -6,21 +6,20 @@
   "type": "composer-plugin",
   "authors": [
     {
-      "name": "Nils Adermann",
-      "email": "naderman@naderman.de",
-      "homepage": "http://www.naderman.de"
+      "name": "David Flores",
+      "email": "david@hechoendrupal.com",
+      "homepage": "http://www.hechoendrupal.com"
     }
   ],
   "autoload": {
     "psr-0": {
-      "Drupal\\Composer\\": "src/"
+      "Drupal\\Composer\\Drupal\\": "src/"
     }
   },
   "extra": {
-    "class": "Drupal\\Composer\\MergeComposers"
+    "class": "Drupal\\Composer\\Drupal\\DrupalPlugin"
   },
   "require": {
-    "composer-plugin-api": "1.0.0",
-    "symfony/finder": "2.3.*"
+    "composer-plugin-api": "1.0.0"
   }
 }
