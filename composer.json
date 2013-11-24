@@ -1,0 +1,9 @@
+{
+  "name": "hechoendrupal/composer-composers",
+  "description": "merge composers",
+  "license": "GPL-2.0+",
+  "type": "composer-plugin",
+  "require": {
+    "composer-plugin-api": "1.0.0"
+  }
+}
