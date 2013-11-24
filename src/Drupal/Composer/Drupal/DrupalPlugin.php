@@ -9,7 +9,7 @@ use Composer\Plugin\PluginInterface;
 use Composer\Plugin\PluginEvents;
 use Composer\Plugin\PreFileDownloadEvent;
 
-class MergeComposers implements PluginInterface, EventSubscriberInterface {
+class DrupalPlugin implements PluginInterface, EventSubscriberInterface {
 
   public function activate(Composer $composer, IOInterface $io){
     $this->composer = $composer;
