@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\Composer;
+namespace Drupal\Composer\Drupal;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
