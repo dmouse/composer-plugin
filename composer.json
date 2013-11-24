@@ -1,8 +1,16 @@
 {
   "name": "hechoendrupal/composer-composers",
   "description": "merge composers",
+  "keywords": ["amazon", "aws", "s3", "composer", "composer-plugin", "plugin"],
   "license": "GPL-2.0+",
   "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "Nils Adermann",
+      "email": "naderman@naderman.de",
+      "homepage": "http://www.naderman.de"
+    }
+  ],
   "require": {
     "composer-plugin-api": "1.0.0",
     "symfony/finder": "2.3.*"
@@ -11,5 +19,8 @@
     "psr-0": {
       "Drupal\\Composer\\": "src/"
     }
+  },
+  "extra": {
+    "class": "Drupal\\Composer\\MergeComposers"
   }
 }
