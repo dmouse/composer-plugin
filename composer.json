@@ -11,10 +11,6 @@
       "homepage": "http://www.naderman.de"
     }
   ],
-  "require": {
-    "composer-plugin-api": "1.0.0",
-    "symfony/finder": "2.3.*"
-  },
   "autoload": {
     "psr-0": {
       "Drupal\\Composer\\": "src/"
@@ -22,5 +18,9 @@
   },
   "extra": {
     "class": "Drupal\\Composer\\MergeComposers"
+  },
+  "require": {
+    "composer-plugin-api": "1.0.0",
+    "symfony/finder": "2.3.*"
   }
 }
